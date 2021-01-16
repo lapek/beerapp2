@@ -8,6 +8,7 @@ spring:
     active: native
   security:
     user:
+      name: user
       password: password
 
 server:
