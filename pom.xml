@@ -19,6 +19,7 @@
         <module>config-server</module>
         <module>discovery-server</module>
         <module>gateway</module>
+        <module>recipes-service</module>
     </modules>
 
     <properties>
@@ -26,6 +27,8 @@
         <java.version>11</java.version>
         <spring-boot.version>2.4.2</spring-boot.version>
         <spring-cloud.version>2020.0.1-SNAPSHOT</spring-cloud.version>
+        <lombok.version>1.18.16</lombok.version>
+        <vavr.version>0.10.3</vavr.version>
     </properties>
 
     <dependencyManagement>
