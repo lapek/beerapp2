@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: io.github.lapek
+testFramework: spock
+sourceLanguage: java
+buildTool: gradle
+features: [ annotation-api, app-name, gradle, http-client, java, java-application, logback, lombok, micronaut-build, mongo-reactive, netty-server, openapi, reactor, reactor-http-client, readme, shade, spock, testcontainers, yaml ]

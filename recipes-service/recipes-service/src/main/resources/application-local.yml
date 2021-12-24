@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: recipesService
+
+mongodb:
+  uri: mongodb://localhost:27018/recipes_db
+  cluster:
+    maxWaitQueueSize: 5
+  connectionPool:
+    maxSize: 20

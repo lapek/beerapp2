@@ -1,0 +1,15 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  recipes-service-mongodb:
+    image: mongo:5.0.2
+    container_name: recipes-service-mongodb
+    environment:
+      MONGO_INITDB_DATABASE: recipes_db
+    volumes:
+      - beerapp:/data/db
+    ports:
+      - 27018:27017
+    restart: unless-stopped
+
+volumes:
+  beerapp:
